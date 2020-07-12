@@ -123,6 +123,16 @@ def btndiv_is_clicked():
     val = val + "÷"
     data.set(val)
 
+
+def btnclear_is_clicked():
+    global vls
+    global operator
+    global val
+    vls = 0
+    val = ""
+    operator = ""
+    data.set(val)
+
 root = tkinter.Tk()
 root.geometry("300x550+450+100")
 root.resizable(0, 0)
@@ -165,7 +175,7 @@ btnclear = Button(
     fg="#f24141",
     relief=GROOVE,
     border=0,
-
+    command=btnclear_is_clicked
 )
 btnclear.pack(side=LEFT, expand=True, fill="both", )
 
