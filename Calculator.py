@@ -133,6 +133,20 @@ def btnclear_is_clicked():
     operator = ""
     data.set(val)
 
+
+def btnequal_is_clicked():
+    global vls
+    global operator
+    global val
+    val2 = val
+    if operator == "+":
+        store = int(val2.split("+")[1])
+        operation = vls + store
+        data.set(operation)
+
+
+
+
 root = tkinter.Tk()
 root.geometry("300x550+450+100")
 root.resizable(0, 0)
@@ -389,7 +403,7 @@ btnequal = Button(
     padx=6,
     relief=GROOVE,
     border=0,
-
+    command=btnequal_is_clicked
 )
 btnequal.pack(side=LEFT, expand=True, fill="both")
 
