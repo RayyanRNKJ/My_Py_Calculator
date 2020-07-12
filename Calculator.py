@@ -7,6 +7,7 @@ root.geometry("300x500+450+100")
 root.resizable(0,0)
 root.title("Calculator")
 
+
 lbl = Label(
     root,
     text = "Label",
@@ -15,7 +16,7 @@ lbl = Label(
 )
 lbl.pack(expand = True, fill = "both")
 
-btnrow0 = Frame(root)
+btnrow0 = Frame(root,bg="#1c1c1b")
 btnrow0.pack(expand = True, fill = "both")
 
 
@@ -43,7 +44,7 @@ btnclear = Button(
     relief = GROOVE,
     border = 0
 )
-btnclear.pack(side = LEFT, expand = True, fill = "both")
+btnclear.pack(side = LEFT, expand = True, fill = "both", )
 
 
 btnbracketopen = Button(
@@ -68,8 +69,10 @@ btnbracketclose.pack(side = LEFT, expand = True, fill = "both")
 
 btndiv = Button(
     btnrow0,
-    text = "/",
-    font = ("Verdana",20),
+    text = " /",
+    font = ("Verdana",16),
+    bg="#ff9500",
+    padx = 5,
     relief=GROOVE,
     border=0
 )
@@ -92,8 +95,8 @@ btn8 = Button(
     btnrow1,
     text = "8",
     font = ("Verdana",20),
-    relief=GROOVE,
-    border=0
+    relief = GROOVE,
+    border = 0
 )
 btn8.pack(side = LEFT, expand = True, fill = "both")
 
@@ -112,6 +115,8 @@ btnmul = Button(
     btnrow1,
     text = "x",
     font = ("Verdana",20),
+    bg="#ff9500",
+    padx = 4,
     relief=GROOVE,
     border=0
 )
@@ -154,6 +159,8 @@ btnminus = Button(
     btnrow2,
     text = "-",
     font = ("Verdana",20),
+    bg = "#ff9500",
+    padx = 6,
     relief=GROOVE,
     border=0
 )
@@ -196,6 +203,8 @@ btnplus = Button(
     btnrow3,
     text = "+",
     font = ("Verdana",20),
+    bg ="#ff9500",
+    padx =1,
     relief=GROOVE,
     border=0
 )
@@ -223,10 +232,21 @@ btndot = Button(
 btndot.pack(side = LEFT, expand = True, fill = "both")
 
 
+btndel = Button(
+    btnrow4,
+    text = "del",
+    font = ("Verdana",20),
+    relief=GROOVE,
+    border=0
+)
+btndel.pack(side = LEFT, expand = True, fill = "both")
+
 btnequal = Button(
     btnrow4,
     text = "=",
-    font = ("Verdana",20),
+    font = ("Verdana",18),
+    bg="#51d663",
+    padx = 6,
     relief=GROOVE,
     border=0
 )
