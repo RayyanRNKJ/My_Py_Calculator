@@ -1,6 +1,7 @@
 import tkinter
 from tkinter import *
 
+
 val = ""
 vls = 0
 operator = ""
@@ -151,7 +152,11 @@ def btnequal_is_clicked():
         store = int(val2.split("x")[1])
         operation = vls * store
         data.set(operation)
-    
+    elif operator == "/":
+        store = int(val2.split("÷")[1])
+        operation = vls / store
+        data.set(operation)
+
 
 
 
