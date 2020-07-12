@@ -84,7 +84,14 @@ def btnbracketclose_is_clicked():
     data.set(val)
 
 
-
+def btnplus_is_clicked():
+    global vls
+    global operator
+    global val
+    vls = int(val)
+    operator = "+"
+    val = val + "+"
+    data.set(val)
 
 
 root = tkinter.Tk()
@@ -101,7 +108,8 @@ lbl = Label(
     height=3,
     textvariable=data,
     bg="white",
-    fg="black"
+    fg="black",
+
 )
 lbl.pack(expand=True, fill="both")
 
@@ -297,7 +305,7 @@ btnplus = Button(
     padx=1,
     relief=GROOVE,
     border=0,
-
+    command=btnplus_is_clicked
 )
 btnplus.pack(side=LEFT, expand=True, fill="both")
 
