@@ -53,6 +53,7 @@ btnbracketopen = Button(
     btnrow0,
     text = "(",
     font = ("Verdana",20),
+    bg = "#e3dede",
     relief=GROOVE,
     border=0
 )
@@ -63,6 +64,7 @@ btnbracketclose = Button(
     btnrow0,
     text = ")",
     font = ("Verdana",20),
+    bg="#e3dede",
     relief=GROOVE,
     border=0
 )
@@ -87,6 +89,7 @@ btn7 = Button(
     btnrow1,
     text = "7",
     font = ("Verdana",20),
+    bg="#e3dede",
     relief=GROOVE,
     border=0
 )
@@ -97,6 +100,7 @@ btn8 = Button(
     btnrow1,
     text = "8",
     font = ("Verdana",20),
+    bg="#e3dede",
     relief = GROOVE,
     border = 0
 )
@@ -107,6 +111,7 @@ btn9 = Button(
     btnrow1,
     text = "9",
     font = ("Verdana",20),
+    bg="#e3dede",
     relief=GROOVE,
     border=0
 )
@@ -131,6 +136,7 @@ btn4 = Button(
     btnrow2,
     text = "4",
     font = ("Verdana",20),
+    bg="#e3dede",
     relief=GROOVE,
     border=0
 )
@@ -141,6 +147,7 @@ btn5 = Button(
     btnrow2,
     text = "5",
     font = ("Verdana",20),
+    bg="#e3dede",
     relief=GROOVE,
     border=0
 )
@@ -151,6 +158,7 @@ btn6 = Button(
     btnrow2,
     text = "6",
     font = ("Verdana",20),
+    bg="#e3dede",
     relief=GROOVE,
     border=0
 )
@@ -175,6 +183,7 @@ btn1 = Button(
     btnrow3,
     text = "1",
     font = ("Verdana",20),
+    bg="#e3dede",
     relief=GROOVE,
     border=0
 )
@@ -185,6 +194,7 @@ btn2 = Button(
     btnrow3,
     text = "2",
     font = ("Verdana",20),
+    bg="#e3dede",
     relief=GROOVE,
     border=0
 )
@@ -195,6 +205,7 @@ btn3 = Button(
     btnrow3,
     text = "3",
     font = ("Verdana",20),
+    bg="#e3dede",
     relief=GROOVE,
     border=0
 )
@@ -218,6 +229,7 @@ btn0 = Button(
     btnrow4,
     text = "0",
     font = ("Verdana",20),
+    bg="#e3dede",
     relief=GROOVE,
     border=0
 )
@@ -228,6 +240,7 @@ btndot = Button(
     btnrow4,
     text = ".",
     font = ("Verdana",20),
+    bg="#e3dede",
     relief=GROOVE,
     border=0
 )
@@ -238,6 +251,7 @@ btndel = Button(
     btnrow4,
     text = "del",
     font = ("Verdana",20),
+    bg="#e3dede",
     relief=GROOVE,
     border=0
 )
