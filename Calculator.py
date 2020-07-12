@@ -41,6 +41,8 @@ btnclear = Button(
     btnrow0,
     text = "C",
     font = ("Verdana",20),
+    bg = "#ffdbdb",
+    fg = "#f24141",
     relief = GROOVE,
     border = 0
 )
