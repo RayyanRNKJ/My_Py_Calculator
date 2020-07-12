@@ -143,6 +143,11 @@ def btnequal_is_clicked():
         store = int(val2.split("+")[1])
         operation = vls + store
         data.set(operation)
+    elif operator == "-":
+        store = int(val2.split("-")[1])
+        operation = vls - store
+        data.set(operation)
+    
 
 
 
