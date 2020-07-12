@@ -113,6 +113,16 @@ def btnmul_is_clicked():
     val = val + "x"
     data.set(val)
 
+
+def btndiv_is_clicked():
+    global vls
+    global operator
+    global val
+    vls = int(val)
+    operator = "/"
+    val = val + "÷"
+    data.set(val)
+
 root = tkinter.Tk()
 root.geometry("300x550+450+100")
 root.resizable(0, 0)
@@ -189,7 +199,7 @@ btndiv = Button(
     padx=5,
     relief=GROOVE,
     border=0,
-
+    command=btndiv_is_clicked
 )
 btndiv.pack(side=LEFT, expand=True, fill="both")
 
