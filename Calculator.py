@@ -94,6 +94,15 @@ def btnplus_is_clicked():
     data.set(val)
 
 
+def btnminus_is_clicked():
+    global vls
+    global operator
+    global val
+    vls = int(val)
+    operator = "-"
+    val = val + "-"
+    data.set(val)
+
 root = tkinter.Tk()
 root.geometry("300x550+450+100")
 root.resizable(0, 0)
@@ -260,7 +269,7 @@ btnminus = Button(
     padx=6,
     relief=GROOVE,
     border=0,
-
+    command=btnminus_is_clicked
 )
 btnminus.pack(side=LEFT, expand=True, fill="both")
 
