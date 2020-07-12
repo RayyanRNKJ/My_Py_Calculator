@@ -155,8 +155,14 @@ def btnequal_is_clicked():
         data.set(operation)
     elif operator == "/":
         store = int(val2.split("÷")[1])
-        operation = vls / store
-        data.set(operation)
+        if store == 0:
+            messagebox.showerror("Invalid Operation, Division By Zero Is Not Possible")
+            vls = ""
+            val = ""
+            data.set(val)
+        else:
+            operation = vls / store
+            data.set(operation)
 
 
 
