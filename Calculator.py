@@ -12,7 +12,8 @@ lbl = Label(
     root,
     text = "Label",
     anchor = SE,
-    font = ("Verdana",20)
+    font = ("Verdana",20),
+    height = 3
 )
 lbl.pack(expand = True, fill = "both")
 
