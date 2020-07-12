@@ -7,7 +7,11 @@ root.geometry("300x500+450+100")
 root.resizable(0,0)
 root.title("Calculator")
 
-btnrow1 = Frame(root, bg ="#000000")
+btnrow0 = Frame(root)
+btnrow0.pack(expand = True, fill = "both")
+
+
+btnrow1 = Frame(root, bg = "#000000")
 btnrow1.pack(expand = True, fill = "both")
 
 
@@ -21,5 +25,9 @@ btnrow3.pack(expand = True, fill = "both")
 
 btnrow4 = Frame(root)
 btnrow4.pack(expand = True, fill = "both")
+
+
+
+
 
 root.mainloop()
