@@ -122,7 +122,7 @@ def btndiv_is_clicked():
     global val
     vls = int(val)
     operator = "/"
-    val = val + "÷"
+    val = val + "/"
     data.set(val)
 
 
