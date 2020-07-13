@@ -145,14 +145,17 @@ def btnequal_is_clicked():
         store = int(val2.split("+")[1])
         operation = vls + store
         data.set(operation)
+        val = str(operation)
     elif operator == "-":
         store = int(val2.split("-")[1])
         operation = vls - store
         data.set(operation)
+        val = str(operation)
     elif operator == "*":
         store = int(val2.split("x")[1])
         operation = vls * store
         data.set(operation)
+        val = str(operation)
     elif operator == "/":
         store = int(val2.split("÷")[1])
         if store == 0:
@@ -161,8 +164,9 @@ def btnequal_is_clicked():
             val = ""
             data.set(val)
         else:
-            operation = vls / store
+            operation = int(vls / store)
             data.set(operation)
+            val = str(operation)
 
 
 
