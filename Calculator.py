@@ -140,33 +140,28 @@ def btnequal_is_clicked():
     global vls
     global operator
     global val
-    val2 = val
     if operator == "+":
-        store = int(val2.split("+")[1])
-        operation = vls + store
-        data.set(operation)
-        val = str(operation)
+        total = str(eval(val))
+        data.set(total)
+        val = str(total)
     elif operator == "-":
-        store = int(val2.split("-")[1])
-        operation = vls - store
-        data.set(operation)
-        val = str(operation)
+        total = str(eval(val))
+        data.set(total)
+        val = str(total)
     elif operator == "*":
-        store = int(val2.split("x")[1])
-        operation = vls * store
-        data.set(operation)
-        val = str(operation)
+        total = str(eval(val))
+        data.set(total)
+        val = str(total)
     elif operator == "/":
-        store = int(val2.split("÷")[1])
-        if store == 0:
+        total = str(eval(val))
+        if total == 0:
             messagebox.showerror("Invalid Operation, Division By Zero Is Not Possible")
             vls = ""
             val = ""
             data.set(val)
         else:
-            operation = int(vls / store)
-            data.set(operation)
-            val = str(operation)
+            data.set(total)
+            val = str(total)
 
 
 
