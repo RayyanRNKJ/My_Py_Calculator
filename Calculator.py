@@ -136,6 +136,16 @@ def btnclear_is_clicked():
     data.set(val)
 
 
+def btndel_is_clicked():
+    #global vls
+    #global operator
+    global val
+    #vls = 0
+    val = val[:-1]
+    #operator = ""
+    data.set(val)
+
+
 def btnequal_is_clicked():
     global vls
     global operator
@@ -415,7 +425,7 @@ btndel = Button(
     bg="#e3dede",
     relief=GROOVE,
     border=0,
-
+    command=btndel_is_clicked
 )
 btndel.pack(side=LEFT, expand=True, fill="both")
 
