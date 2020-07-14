@@ -90,7 +90,7 @@ def btnplus_is_clicked():
     global vls
     global operator
     global val
-    vls = int(val)
+    vls = float(val)
     operator = "+"
     val = val + "+"
     data.set(val)
@@ -100,7 +100,7 @@ def btnminus_is_clicked():
     global vls
     global operator
     global val
-    vls = int(val)
+    vls = float(val)
     operator = "-"
     val = val + "-"
     data.set(val)
@@ -110,7 +110,7 @@ def btnmul_is_clicked():
     global vls
     global operator
     global val
-    vls = int(val)
+    vls = float(val)
     operator = "*"
     val = val + "*"
     data.set(val)
@@ -120,7 +120,7 @@ def btndiv_is_clicked():
     global vls
     global operator
     global val
-    vls = int(val)
+    vls = float(val)
     operator = "/"
     val = val + "/"
     data.set(val)
