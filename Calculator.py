@@ -74,9 +74,6 @@ def btndot_is_clicked():
     data.set(val)
 
 
-
-
-
 def btnplus_is_clicked():
     global vls
     global operator
@@ -157,14 +154,8 @@ def btnequal_is_clicked():
         val = str(total)
     elif operator == "/":
         total = str(eval(val))
-        if total == 0:
-            messagebox.showerror("Invalid Operation, Division By Zero Is Not Possible")
-            vls = ""
-            val = ""
-            data.set(val)
-        else:
-            data.set(total)
-            val = str(total)
+        data.set(total)
+        val = str(total)
 
 
 
