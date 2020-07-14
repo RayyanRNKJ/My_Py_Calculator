@@ -8,6 +8,7 @@ vls = 0
 operator = ""
 
 
+
 def btn1_is_clicked():
     global val
     val = val + "1"
@@ -182,7 +183,6 @@ lbl = Label(
     textvariable=data,
     bg="white",
     fg="black",
-
 )
 lbl.pack(expand=True, fill="both")
 
