@@ -141,6 +141,7 @@ def btnequal_is_clicked():
     global operator
     global val
     val = val.replace("x","*")
+    val = val.replace("÷", "/")
     if operator == "+":
         total = str(eval(val))
         data.set(total)
