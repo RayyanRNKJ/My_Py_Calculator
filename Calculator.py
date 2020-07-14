@@ -112,7 +112,7 @@ def btnmul_is_clicked():
     global val
     vls = float(val)
     operator = "*"
-    val = val + "*"
+    val = val + "x"
     data.set(val)
 
 
@@ -122,7 +122,7 @@ def btndiv_is_clicked():
     global val
     vls = float(val)
     operator = "/"
-    val = val + "/"
+    val = val + "÷"
     data.set(val)
 
 
@@ -140,6 +140,7 @@ def btnequal_is_clicked():
     global vls
     global operator
     global val
+    val = val.replace("x","*")
     if operator == "+":
         total = str(eval(val))
         data.set(total)
