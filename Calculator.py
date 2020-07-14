@@ -177,7 +177,7 @@ lbl = Label(
     root,
     text="Label",
     wraplength=300,
-    justify=LEFT,
+    justify=RIGHT,
     anchor=SE,
     font=("Verdana", 20),
     height=3,
