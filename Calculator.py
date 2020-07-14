@@ -74,16 +74,7 @@ def btndot_is_clicked():
     data.set(val)
 
 
-def btnbracketopen_is_clicked():
-    global val
-    val = val + "("
-    data.set(val)
 
-
-def btnbracketclose_is_clicked():
-    global val
-    val = val + ")"
-    data.set(val)
 
 
 def btnplus_is_clicked():
@@ -218,43 +209,23 @@ btnrow4.pack(expand=True, fill="both")
 btnclear = Button(
     btnrow0,
     text="C",
-    font=("Verdana", 20),
+    font=("Verdana", 21),
     bg="#ffdbdb",
     fg="#f24141",
+    padx=67,
     relief=GROOVE,
     border=0,
     command=btnclear_is_clicked
 )
 btnclear.pack(side=LEFT, expand=True, fill="both", )
 
-btnbracketopen = Button(
-    btnrow0,
-    text="(",
-    font=("Verdana", 20),
-    bg="#e3dede",
-    relief=GROOVE,
-    border=0,
-    command=btnbracketopen_is_clicked
-)
-btnbracketopen.pack(side=LEFT, expand=True, fill="both")
 
-btnbracketclose = Button(
-    btnrow0,
-    text=")",
-    font=("Verdana", 20),
-    bg="#e3dede",
-    relief=GROOVE,
-    border=0,
-    command=btnbracketclose_is_clicked
-)
-btnbracketclose.pack(side=LEFT, expand=True, fill="both")
 
 btndiv = Button(
     btnrow0,
     text=" /",
     font=("Verdana", 16),
     bg="#ff9500",
-    padx=5,
     relief=GROOVE,
     border=0,
     command=btndiv_is_clicked
