@@ -176,6 +176,8 @@ data = StringVar()
 lbl = Label(
     root,
     text="Label",
+    wraplength=300,
+    justify=LEFT,
     anchor=SE,
     font=("Verdana", 20),
     height=3,
