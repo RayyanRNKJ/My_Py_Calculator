@@ -1,6 +1,6 @@
 import tkinter
 from tkinter import *
-from tkinter import messagebox
+
 
 
 val = ""
@@ -153,7 +153,11 @@ def btnequal_is_clicked():
         data.set(total)
         val = str(total)
     elif operator == "/":
-        total = str(eval(val))
+        try:
+            total = str(eval(val))
+        except: ZeroDivisionError
+        val = "Sorry, Division By Zero Is Not Possible!!!"
+        data.set(val)
         data.set(total)
         val = str(total)
 
