@@ -13,6 +13,3 @@ Special Thanks : [**Crossroads Team**.](https://www.youtube.com/channel/UCoGHeFY
 
 Author : **Rayyan Rasheed**<
 Mail   : rayyanwebofficial@gmail.com<br>br>
-kelkaaamo  bro yude phone il ninnu vaa ippol bro veellom parayunn undo
-eniku kelkam
-parayn patunillla oh 
