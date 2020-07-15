@@ -11,66 +11,89 @@ operator = ""
 
 def btn1_is_clicked():
     global val
+    if val == "Sorry, Division By Zero Is Not Possible!!!":
+        btnclear_is_clicked()
     val = val + "1"
     data.set(val)
 
 
+
 def btn2_is_clicked():
     global val
+    if val == "Sorry, Division By Zero Is Not Possible!!!":
+        btnclear_is_clicked()
     val = val + "2"
     data.set(val)
 
 
 def btn3_is_clicked():
     global val
+    if val == "Sorry, Division By Zero Is Not Possible!!!":
+        btnclear_is_clicked()
     val = val + "3"
     data.set(val)
 
 
 def btn4_is_clicked():
     global val
+    if val == "Sorry, Division By Zero Is Not Possible!!!":
+        btnclear_is_clicked()
     val = val + "4"
     data.set(val)
 
 
 def btn5_is_clicked():
     global val
+    if val == "Sorry, Division By Zero Is Not Possible!!!":
+        btnclear_is_clicked()
     val = val + "5"
     data.set(val)
 
 
 def btn6_is_clicked():
     global val
+    if val == "Sorry, Division By Zero Is Not Possible!!!":
+        btnclear_is_clicked()
     val = val + "6"
     data.set(val)
 
 
 def btn7_is_clicked():
     global val
+    if val == "Sorry, Division By Zero Is Not Possible!!!":
+        btnclear_is_clicked()
     val = val + "7"
     data.set(val)
 
 
 def btn8_is_clicked():
     global val
+    if val == "Sorry, Division By Zero Is Not Possible!!!":
+        btnclear_is_clicked()
     val = val + "8"
     data.set(val)
 
 
 def btn9_is_clicked():
     global val
+    if val == "Sorry, Division By Zero Is Not Possible!!!":
+        btnclear_is_clicked()
     val = val + "9"
     data.set(val)
 
 
 def btn0_is_clicked():
     global val
+    if val == "Sorry, Division By Zero Is Not Possible!!!":
+        btnclear_is_clicked()
     val = val + "0"
     data.set(val)
 
 
 def btndot_is_clicked():
     global val
+    if val == "Sorry, Division By Zero Is Not Possible!!!":
+        btnclear_is_clicked()
     val = val + "."
     data.set(val)
 
