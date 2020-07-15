@@ -102,6 +102,8 @@ def btnplus_is_clicked():
     global vls
     global operator
     global val
+    if val.find("+") >= 1 or val.find("-") >= 1 or val.find("x") >= 1 or val.find("÷") >= 1:
+        btnequal_is_clicked()
     vls = float(val)
     operator = "+"
     val = val + "+"
@@ -112,6 +114,8 @@ def btnminus_is_clicked():
     global vls
     global operator
     global val
+    if val.find("-") >= 1 or val.find("+") >= 1 or val.find("x") >= 1 or val.find("÷") >= 1:
+        btnequal_is_clicked()
     vls = float(val)
     operator = "-"
     val = val + "-"
@@ -122,6 +126,8 @@ def btnmul_is_clicked():
     global vls
     global operator
     global val
+    if val.find("x") >= 1 or val.find("-") >= 1 or val.find("+") >= 1 or val.find("÷") >= 1:
+        btnequal_is_clicked()
     vls = float(val)
     operator = "*"
     val = val + "x"
@@ -132,6 +138,8 @@ def btndiv_is_clicked():
     global vls
     global operator
     global val
+    if val.find("÷") >= 1 or val.find("x") >= 1 or val.find("-") >= 1 or val.find("+") >= 1:
+        btnequal_is_clicked()
     vls = float(val)
     operator = "/"
     val = val + "÷"
