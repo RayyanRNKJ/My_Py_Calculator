@@ -6,9 +6,9 @@ Any One Can Make This Calculator Becuase This Is Made By A Beginner<br>
 **If You Want To Make Any Project In Any Language And Get Error Google It And Find It<br>
 Becuase I Google It Asked My Tech Professional Friends**
 
-Special Thanks : [**Aswin Asok**.](https://github.com/AswinAsok)
-Special Thanks : [**Jobin S**.](https://github.com/Jobin-S)
-Special Thanks : [**Crossroads Team**.](https://www.youtube.com/channel/UCoGHeFY7jE2OB_TJS_87MOA)
+Special Thanks : [**Aswin Asok**.](https://github.com/AswinAsok)<br>
+Special Thanks : [**Jobin S**.](https://github.com/Jobin-S)<br>
+Special Thanks : [**Crossroads Team**.](https://www.youtube.com/channel/UCoGHeFY7jE2OB_TJS_87MOA)<br>
 
 
 Author : **Rayyan Rasheed**<br>
